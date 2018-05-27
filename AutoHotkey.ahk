@@ -7,9 +7,9 @@
     return
 
 *Capslock up::
-	Send {Blind}{LControl up}
-    	; Tooltip, %A_PRIORKEY%
-    	SetTimer, RemoveTooltip, 1000
+    Send {Blind}{LControl up}
+    ; Tooltip, %A_PRIORKEY%
+    ; SetTimer, RemoveTooltip, 1000
     if A_PRIORKEY = CapsLock
     {
         	Send {Esc}
